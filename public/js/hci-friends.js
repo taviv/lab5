@@ -11,7 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Javascript connected!");
 
-$(".friends").click(function(e) { 
+$(".friends #clicks").click(function(e) { 
     // prevent the page from reloading      
     e.preventDefault();  
     $(this).text(anagrammedName($(this).text()));
